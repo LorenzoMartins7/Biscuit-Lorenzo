@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to top,white, rgb(223, 223, 57), rgb(185, 83, 100), rgb(221, 71, 71));
+    background-attachment: fixed;
+}
+header{
+    background-color: lightskyblue;
+    margin: auto;
+    padding-top: 40px;
+}
+div{
+    display: inline-block;
+}
+header > div#menu > div > img{
+    width: 90px;
+    height: 90px;
+}
