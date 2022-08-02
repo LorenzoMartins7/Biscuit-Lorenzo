@@ -22,7 +22,7 @@ nav{
     height: 100px;
     width: 100%;
 }
-header > nav > div#menu > ul > a > img{
+header > nav > div#menu > ul > a > img#logo{
     width: 90px;
     height: 90px;
 }
@@ -37,13 +37,18 @@ ul{
     margin: 5px;
     font-size: 20px;
 }
-ul > a > img{
-    width: 20px;
-    width: 20px;
+ul > a{
+    color: black;
+    text-decoration: none;
 }
-ul > a > img.icon{
-    width: 10px;
-    height: 10px;
+ul > a:hover{
+    background-color: rgba(45, 224, 209, 0.733);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+ul > a > img{
+    width: 30px;
+    height: 35px;
 }
 main{
     background-color: white;
