@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(40, 40, 153, 0.829);
+    text-align: center;
+}
+form{
+    margin: 1px;
+    background-color: white;
+    text-align: center;
+    min-width: 400px;
+    height: 500px;
+}
+input{
+    min-width: 350px;
+    max-width: 800px;
+    height: 50px;
+}
